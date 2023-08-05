@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: auto;
+    margin: 70px auto 0 auto;
+    border: 1px solid black;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+}
+.heading-notify p{
+    font-family: 'REM', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.single-notification-box{
+    margin-top: 20px;
+}
+.unread-notification-number{
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 104);
+    color: white;
+    border-radius: 5px;
+}
+.mark-as-read{
+    font-size: 18px;
+    font-family: 'poppins' ,sans-serif;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.mark-as-read a{
+    color: rgb(57, 47, 47);
+}
+/* CSS FOR NOTIFICATION-CENTRE */
+.notification-centre{
+    margin-top: 70px;
+}
+.single-notification-box{
+    display: flex;
+    /* border: 1px solid black; */
+}
+.notification-text{
+    margin-left: 10px;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.notification-text .profile-name{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'REM', sans-serif;
+    margin-right: .6%;
+    font-weight: 800;
+}
+.notification-text .react{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 4px;
+    color: rgb(33, 33, 33);
+}
+.post-detail{
+    font-size: 19px;
+    text-decoration: none;
+    font-family: 'REM', sans-serif;
+    color: black;
+}
+.date{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.more-detail{
+    width: 400px;
+    margin: 1% auto 0 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-detail img{
+    max-height: 50px;
+    position: absolute;
+    right: 8%;
+    top: 1%;
+}
+.forth-person{
+    max-width: 100%;
+}
+.fith-person{
+   position: relative;
+}
+.img-detail {
+    border: 1px solid black;
+    margin-left: 10%;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+.hello {
+    font-size: 26px;
+    color: rgb(1, 80, 80);
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 20px auto 0 auto;
+    }
+    .heading-notify p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .unread-notification-number{
+        margin-left: 10px;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .mark-as-read{
+        font-size: 16px;
+        font-family: 'poppins' ,sans-serif;
+        margin-right: 5px;
+        margin-top: 3px;
+    }
+    .profile-img img{
+        height: 50px;
+        width: 50px;
+
+    }
+    .single-notification-box{
+        margin-top: 20px;
+    }
+    .notification-text{
+        margin-left: 10px;
+        margin-top: 0;
+        /* border: 1px solid black; */
+        width: 90%
+    }
+    .notification-text .profile-name{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .notification-text .react{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 4px;
+        color: rgb(33, 33, 33);
+    }
+    .post-detail{
+        font-size: 16px;
+    }
+    .fourth-person{
+        max-width: 70%;
+    }
+    .more-detail{
+        max-width: 100%;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 15px;
+    }
+}
